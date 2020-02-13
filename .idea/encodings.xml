@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seer-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seer-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seer-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seer-table" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util/common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util/dict" charset="UTF-8" />

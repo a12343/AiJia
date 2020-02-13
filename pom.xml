@@ -5,6 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>util</module>
+        <module>seer-core</module>
+      <module>seer-table</module>
+      <module>seer-jpa</module>
+        <module>seer-mybatis</module>
     </modules>
 
     <parent>

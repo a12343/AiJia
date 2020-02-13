@@ -17,4 +17,27 @@
     <name>table</name>
     <description>自定义表</description>
 
+    <properties>
+        <seer-table.version>0.0.1</seer-table.version>
+        <seer-jpa.version>0.0.1</seer-jpa.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.seerbigdata</groupId>
+            <artifactId>seer-table</artifactId>
+            <version>${seer-table.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.seerbigdata</groupId>
+            <artifactId>seer-jpa</artifactId>
+            <version>${seer-jpa.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.seerbigdata</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
