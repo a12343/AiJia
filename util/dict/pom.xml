@@ -3,25 +3,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>house-AiJia</artifactId>
+        <artifactId>util</artifactId>
         <groupId>com.lin</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-
-
     <groupId>com.lin</groupId>
-    <artifactId>util</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>dict</artifactId>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>common</module>
-        <module>dict</module>
-        <module>table</module>
-    </modules>
 
+    <name>数据字典啊</name>
+    <description>dict</description>
 
-    <name>util</name>
-    <description>工具类</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.lin</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

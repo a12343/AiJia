@@ -7,13 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="dict" />
+        <module name="table" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
+      <module name="dict" options="-parameters" />
       <module name="house-AiJia" options="-parameters" />
+      <module name="table" options="-parameters" />
       <module name="util" options="-parameters" />
     </option>
   </component>
