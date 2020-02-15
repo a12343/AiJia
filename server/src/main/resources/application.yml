@@ -1,0 +1,42 @@
+### spring\u914D\u7F6E
+spring:
+  ###\u73AF\u5883\u914D\u7F6E dev, test, pro, prohj
+  profiles:
+    active: test
+
+  ###\u5E94\u7528\u540D
+  application:
+    name: AiJia
+
+  main:
+    allow-bean-definition-overriding: true
+
+  ####jackson\u914D\u7F6E
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+  ## jpa\u914D\u7F6E
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.format_sql: false
+      hibernate:
+        dialect: com.lin.aijia.mysql.MySQL55InnoDBDialectUtf8mb4
+        #dialect: org.hibernate.dialect.MySQL55Dialect
+        connection:
+          CharSet: utf8mb4
+
+  #freemarker\u6A21\u677F\u914D\u7F6E
+  freemarker:
+    template-loader-path: classpath:/templates/
+    enabled: false
+    cache: false
+
+  ## \u6587\u4EF6\u4E0A\u4F20\u914D\u7F6E
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 50MB

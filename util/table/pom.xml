@@ -18,26 +18,34 @@
     <description>自定义表</description>
 
     <properties>
-        <seer-table.version>0.0.1</seer-table.version>
-        <seer-jpa.version>0.0.1</seer-jpa.version>
+            <java.version>1.8</java.version>
+            <seer-jpa.version>1.0-SNAPSHOT</seer-jpa.version>
+            <seer-mybatis.version>1.0-SNAPSHOT</seer-mybatis.version>
+            <seer-table.version>1.0-SNAPSHOT</seer-table.version>
+             <common.version>1.0-SNAPSHOT</common.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.seerbigdata</groupId>
+            <groupId>com.lin</groupId>
+            <artifactId>seer-mybatis</artifactId>
+            <version>${seer-mybatis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lin</groupId>
             <artifactId>seer-table</artifactId>
             <version>${seer-table.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.seerbigdata</groupId>
+            <groupId>com.lin</groupId>
             <artifactId>seer-jpa</artifactId>
             <version>${seer-jpa.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.seerbigdata</groupId>
+            <groupId>com.lin</groupId>
             <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${common.version}</version>
         </dependency>
     </dependencies>
 </project>

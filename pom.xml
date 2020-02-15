@@ -9,6 +9,7 @@
       <module>seer-table</module>
       <module>seer-jpa</module>
         <module>seer-mybatis</module>
+      <module>aijia-base</module>
     </modules>
 
     <parent>
