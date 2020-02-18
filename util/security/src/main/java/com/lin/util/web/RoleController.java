@@ -1,12 +1,9 @@
 package com.lin.util.web;
 
 
-import com.lin.aijia.util.entity.ApiVersionHeader;
-import com.lin.aijia.util.entity.BaseInDTO;
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
+
 import com.lin.util.dto.RoleDTO;
-import com.lin.util.entity.Role;
+import com.lin.util.entity.*;
 import com.lin.util.service.RoleService;
 import com.lin.util.validator.RoleDTOValidator;
 import com.yyfly.common.entity.BaseEntity;

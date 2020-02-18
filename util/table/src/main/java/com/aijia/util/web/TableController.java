@@ -7,8 +7,9 @@ import com.aijia.util.dto.TableDTO;
 import com.aijia.util.entity.Table;
 import com.aijia.util.parm.TablePARM;
 import com.aijia.util.service.TableService;
-import com.lin.aijia.util.entity.ApiVersionHeader;
-import com.lin.aijia.util.entity.ListData;
+
+import com.lin.util.entity.ApiVersionHeader;
+import com.lin.util.entity.ListData;
 import com.yyfly.common.entity.ResponseData;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;

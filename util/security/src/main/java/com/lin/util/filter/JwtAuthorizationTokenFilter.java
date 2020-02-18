@@ -1,8 +1,9 @@
 package com.lin.util.filter;
 
 
-import com.lin.aijia.util.utils.JwtTokenUtils;
+
 import com.lin.util.entity.JwtUser;
+import com.lin.util.utils.JwtTokenUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

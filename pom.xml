@@ -10,6 +10,8 @@
       <module>seer-jpa</module>
         <module>seer-mybatis</module>
       <module>aijia-base</module>
+        <module>product</module>
+        <module>audit</module>
     </modules>
 
     <parent>

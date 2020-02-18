@@ -1,10 +1,11 @@
 package com.lin.util.service;
 
-import com.lin.aijia.util.entity.DTOConvert;
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
+
 import com.lin.util.dto.AuthorityDTO;
 import com.lin.util.dto.UserDTO;
+import com.lin.util.entity.DTOConvert;
+import com.lin.util.entity.ListData;
+import com.lin.util.entity.SearchCriteria;
 import com.lin.util.entity.User;
 import com.yyfly.common.service.BaseService;
 import org.springframework.lang.NonNull;

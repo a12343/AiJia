@@ -1,8 +1,9 @@
 package com.lin.util.validator;
 
 
-import com.lin.aijia.util.utils.RegexUtils;
+
 import com.lin.util.dto.UserDTO;
+import com.lin.util.utils.RegexUtils;
 import com.yyfly.common.exception.GlobalException;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
@@ -11,7 +12,7 @@ import org.springframework.validation.Validator;
 
 /**
  * UserDto 验证器
- * @author : yangjunqing / yangjunqing@seerbigdata.com
+ * @author : lin
  * @version : 1.0
  */
 @Component

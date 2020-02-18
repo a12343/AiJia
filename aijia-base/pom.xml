@@ -11,6 +11,14 @@
 
     <groupId>com.lin</groupId>
     <artifactId>aijia-base</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>people</module>
+        <module>department</module>
+    </modules>
 
 
+    <name>人员资料</name>
+    <description>aijia-base</description>
 </project>

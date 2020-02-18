@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 
 /**
  * mybatis 基础实体
- * @author : yangjunqing / yangjunqing@seerbigdata.com
+ * @author : lin
  * @version : 1.0
  */
 @Data

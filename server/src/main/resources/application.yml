@@ -24,7 +24,7 @@ spring:
     properties:
       hibernate.format_sql: false
       hibernate:
-        dialect: com.lin.aijia.mysql.MySQL55InnoDBDialectUtf8mb4
+        dialect: com.lin.mysql.MySQL55InnoDBDialectUtf8mb4
         #dialect: org.hibernate.dialect.MySQL55Dialect
         connection:
           CharSet: utf8mb4

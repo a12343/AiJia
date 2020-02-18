@@ -1,11 +1,12 @@
 package com.lin.util.web;
 
 
-import com.lin.aijia.util.entity.ApiVersionHeader;
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
+
 import com.lin.util.dto.ResourceDTO;
+import com.lin.util.entity.ApiVersionHeader;
+import com.lin.util.entity.ListData;
 import com.lin.util.entity.Resource;
+import com.lin.util.entity.SearchCriteria;
 import com.lin.util.service.ResourceService;
 import com.lin.util.validator.ResourceDTOValidator;
 import com.yyfly.common.entity.ResponseData;

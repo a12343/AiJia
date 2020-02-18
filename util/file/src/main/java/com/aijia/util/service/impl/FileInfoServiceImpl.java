@@ -7,11 +7,12 @@ import com.aijia.util.entity.FileInfo;
 import com.aijia.util.properties.FileManageProperties;
 import com.aijia.util.service.FileInfoService;
 
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
-import com.lin.aijia.util.utils.QRcodeUtils;
-import com.lin.aijia.util.utils.ToolUtils;
+
+import com.lin.util.entity.ListData;
+import com.lin.util.entity.SearchCriteria;
+import com.lin.util.utils.QRcodeUtils;
 import com.lin.util.utils.SecurityUtils;
+import com.lin.util.utils.ToolUtils;
 import com.yyfly.common.exception.GlobalException;
 import com.yyfly.common.repository.BaseRepository;
 import com.yyfly.common.service.impl.BaseServiceImpl;

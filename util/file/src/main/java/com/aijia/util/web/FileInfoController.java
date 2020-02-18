@@ -4,9 +4,10 @@ package com.aijia.util.web;
 import com.aijia.util.dto.FileInfoDTO;
 import com.aijia.util.entity.FileInfo;
 import com.aijia.util.service.FileInfoService;
-import com.lin.aijia.util.entity.ApiVersionHeader;
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
+
+import com.lin.util.entity.ApiVersionHeader;
+import com.lin.util.entity.ListData;
+import com.lin.util.entity.SearchCriteria;
 import com.yyfly.common.entity.ResponseData;
 import com.yyfly.common.exception.GlobalException;
 import com.yyfly.common.web.BaseController;

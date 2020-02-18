@@ -1,11 +1,12 @@
 package com.lin.util.config;
 
 
-import com.lin.aijia.util.utils.JwtTokenUtils;
+
 import com.lin.util.config.properties.ImmsSecurityProperties;
 import com.lin.util.entity.JwtAccessDeniedHandler;
 import com.lin.util.entity.JwtAuthenticationEntryPoint;
 import com.lin.util.filter.JwtAuthorizationTokenFilter;
+import com.lin.util.utils.JwtTokenUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;

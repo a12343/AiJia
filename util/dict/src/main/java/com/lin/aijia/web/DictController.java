@@ -4,10 +4,11 @@ package com.lin.aijia.web;
 import com.lin.aijia.dto.DictDTO;
 import com.lin.aijia.entity.Dict;
 import com.lin.aijia.service.DictService;
-import com.lin.aijia.util.entity.ApiVersionHeader;
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
+
 import com.lin.aijia.validator.DictDTOValidator;
+import com.lin.util.entity.ApiVersionHeader;
+import com.lin.util.entity.ListData;
+import com.lin.util.entity.SearchCriteria;
 import com.yyfly.common.entity.ResponseData;
 import com.yyfly.common.web.BaseController;
 import io.swagger.annotations.*;

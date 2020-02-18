@@ -2,15 +2,16 @@ package com.lin.util.service.impl;
 
 
 import com.lin.aijia.service.DictService;
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
-import com.lin.aijia.util.utils.ToolUtils;
+
 import com.lin.util.dao.RoleDao;
 import com.lin.util.dto.RoleDTO;
+import com.lin.util.entity.ListData;
 import com.lin.util.entity.Resource;
 import com.lin.util.entity.Role;
+import com.lin.util.entity.SearchCriteria;
 import com.lin.util.service.ResourceService;
 import com.lin.util.service.RoleService;
+import com.lin.util.utils.ToolUtils;
 import com.yyfly.common.entity.BaseEntity;
 import com.yyfly.common.repository.BaseRepository;
 import com.yyfly.common.service.impl.BaseServiceImpl;

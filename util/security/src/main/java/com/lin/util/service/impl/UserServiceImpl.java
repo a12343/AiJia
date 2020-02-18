@@ -1,19 +1,16 @@
 package com.lin.util.service.impl;
 
 
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
-import com.lin.aijia.util.utils.JwtTokenUtils;
-import com.lin.aijia.util.utils.ToolUtils;
+
 import com.lin.util.dao.UserDao;
 import com.lin.util.dto.AuthorityDTO;
 import com.lin.util.dto.UserDTO;
-import com.lin.util.entity.Resource;
-import com.lin.util.entity.Role;
-import com.lin.util.entity.User;
+import com.lin.util.entity.*;
 import com.lin.util.service.ResourceService;
 import com.lin.util.service.RoleService;
 import com.lin.util.service.UserService;
+import com.lin.util.utils.JwtTokenUtils;
+import com.lin.util.utils.ToolUtils;
 import com.yyfly.common.entity.BaseEntity;
 import com.yyfly.common.exception.GlobalException;
 import com.yyfly.common.http.HTTP;

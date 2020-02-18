@@ -2,9 +2,10 @@ package com.aijia.util.service;
 
 import com.aijia.util.dto.FileInfoDTO;
 import com.aijia.util.entity.FileInfo;
-import com.lin.aijia.util.entity.DTOConvert;
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
+
+import com.lin.util.entity.DTOConvert;
+import com.lin.util.entity.ListData;
+import com.lin.util.entity.SearchCriteria;
 import com.yyfly.common.service.BaseService;
 import org.springframework.lang.Nullable;
 import org.springframework.web.multipart.MultipartFile;

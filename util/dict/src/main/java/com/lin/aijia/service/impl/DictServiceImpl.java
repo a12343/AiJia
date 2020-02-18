@@ -5,8 +5,9 @@ import com.lin.aijia.dao.DictDao;
 import com.lin.aijia.dto.DictDTO;
 import com.lin.aijia.entity.Dict;
 import com.lin.aijia.service.DictService;
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
+
+import com.lin.util.entity.ListData;
+import com.lin.util.entity.SearchCriteria;
 import com.yyfly.common.repository.BaseRepository;
 import com.yyfly.common.service.impl.BaseServiceImpl;
 import org.apache.commons.lang3.StringUtils;

@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="audit" />
         <module name="common" />
+        <module name="department" />
         <module name="dict" />
         <module name="file" />
+        <module name="people" />
+        <module name="product" />
         <module name="security" />
         <module name="seer-core" />
         <module name="seer-jpa" />
@@ -22,10 +26,15 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aijia-base" options="-parameters" />
+      <module name="audit" options="-parameters" />
       <module name="common" options="-parameters" />
+      <module name="department" options="-parameters" />
       <module name="dict" options="-parameters" />
       <module name="file" options="-parameters" />
       <module name="house-AiJia" options="-parameters" />
+      <module name="people" options="-parameters" />
+      <module name="product" options="-parameters" />
       <module name="security" options="-parameters" />
       <module name="seer-core" options="-parameters" />
       <module name="seer-jpa" options="-parameters" />

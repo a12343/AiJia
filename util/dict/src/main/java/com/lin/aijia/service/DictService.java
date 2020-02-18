@@ -3,9 +3,10 @@ package com.lin.aijia.service;
 
 import com.lin.aijia.dto.DictDTO;
 import com.lin.aijia.entity.Dict;
-import com.lin.aijia.util.entity.DTOConvert;
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
+
+import com.lin.util.entity.DTOConvert;
+import com.lin.util.entity.ListData;
+import com.lin.util.entity.SearchCriteria;
 import com.yyfly.common.service.BaseService;
 
 import java.util.List;

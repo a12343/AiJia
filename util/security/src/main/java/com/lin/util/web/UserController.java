@@ -1,12 +1,12 @@
 package com.lin.util.web;
 
 
-import com.lin.aijia.util.entity.*;
-import com.lin.aijia.util.utils.ToolUtils;
+
 import com.lin.util.dto.UserDTO;
 import com.lin.util.dto.UserModifyPasswordDTO;
-import com.lin.util.entity.User;
+import com.lin.util.entity.*;
 import com.lin.util.service.UserService;
+import com.lin.util.utils.ToolUtils;
 import com.lin.util.validator.UserDTOValidator;
 import com.yyfly.common.entity.BaseEntity;
 import com.yyfly.common.entity.ResponseData;
@@ -16,6 +16,7 @@ import io.swagger.annotations.*;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.Nullable;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import springfox.documentation.annotations.ApiIgnore;
@@ -82,6 +83,7 @@ public class UserController extends BaseController {
      * @author : yangjunqing / 2019-01-08
      */
     @PostMapping
+    @PreAuthorize("hasAnyAuthority('/department:show')")
     @ApiOperation(value = "新增用户", notes = "新增用户API", response = UserDTO.class)
     @ApiImplicitParams({
             @ApiImplicitParam(name = "Authorization", value = "认证token", paramType = "header", required = true, dataType = "string"),

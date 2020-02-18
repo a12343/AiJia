@@ -1,13 +1,13 @@
 package com.lin.util.service.impl;
 
 
-import com.lin.aijia.util.entity.ListData;
-import com.lin.aijia.util.entity.SearchCriteria;
-import com.lin.aijia.util.utils.ToolUtils;
 import com.lin.util.dao.ResourceDao;
 import com.lin.util.dto.ResourceDTO;
+import com.lin.util.entity.ListData;
 import com.lin.util.entity.Resource;
+import com.lin.util.entity.SearchCriteria;
 import com.lin.util.service.ResourceService;
+import com.lin.util.utils.ToolUtils;
 import com.yyfly.common.entity.BaseEntity;
 import com.yyfly.common.exception.GlobalException;
 import com.yyfly.common.repository.BaseRepository;

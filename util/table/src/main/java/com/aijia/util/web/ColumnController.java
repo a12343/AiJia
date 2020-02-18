@@ -9,8 +9,9 @@ import com.aijia.util.parm.ColumnSequencePARM;
 import com.aijia.util.service.ColumnService;
 import com.google.common.base.Preconditions;
 
-import com.lin.aijia.util.entity.ApiVersionHeader;
-import com.lin.aijia.util.entity.ListData;
+
+import com.lin.util.entity.ApiVersionHeader;
+import com.lin.util.entity.ListData;
 import com.yyfly.common.entity.ResponseData;
 import com.yyfly.common.web.BaseController;
 import io.swagger.annotations.*;
